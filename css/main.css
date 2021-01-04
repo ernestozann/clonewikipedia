@@ -244,3 +244,28 @@ it's so interesting use grid '3'*/
     margin: 0.3em 0 0;
     font-size: 1.2rem;
 }
+/*end links*/
+/*start footer*/
+.footer {
+    margin-top: 1.3rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+  
+.footer ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+  
+.footer ul li {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+  
+.footer ul li::before {
+    content: ". ";
+    font-size: 1.3rem;
+    color: black;
+}
+/*end footer*/
